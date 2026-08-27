@@ -1,0 +1,352 @@
+{
+  "version": 1,
+  "topic": "Agent 算法研究员",
+  "slug": "agent-algorithm-researcher",
+  "created": "2026-07-09",
+  "domains": [
+    {
+      "name": "Agent 基础架构",
+      "slug": "agent-fundamentals",
+      "concepts": [
+        {
+          "name": "Agent 定义与范式",
+          "slug": "agent-paradigms",
+          "status": "in_progress",
+          "confidence": 0.25,
+          "practice_count": 1,
+          "explain_count": 1,
+          "last_explained": "2026-07-09",
+          "last_practiced": "2026-07-09",
+          "details": ["反应式Agent", "模型式Agent", "目标驱动Agent", "效用驱动Agent", "BDI模型"]
+        },
+        {
+          "name": "感知-规划-执行循环",
+          "slug": "sense-plan-act",
+          "status": "in_progress",
+          "confidence": 0.30,
+          "practice_count": 1,
+          "explain_count": 1,
+          "last_explained": "2026-07-09",
+          "last_practiced": "2026-07-26",
+          "details": ["环境感知", "状态表示", "行动空间", "反馈闭环"]
+        },
+        {
+          "name": "ReAct 模式",
+          "slug": "react-pattern",
+          "status": "in_progress",
+          "confidence": 0.30,
+          "practice_count": 1,
+          "explain_count": 1,
+          "last_explained": "2026-07-09",
+          "last_practiced": "2026-07-26",
+          "details": ["Reasoning + Acting交错", "思维-行动-观察循环", "与纯推理/纯行动对比"]
+        },
+        {
+          "name": "工具使用与 Function Calling",
+          "slug": "tool-use",
+          "status": "in_progress",
+          "confidence": 0.1,
+          "practice_count": 0,
+          "explain_count": 1,
+          "last_explained": "2026-07-26",
+          "last_practiced": null,
+          "details": ["工具定义Schema", "工具选择策略", "多工具编排", "错误处理与重试"]
+        },
+        {
+          "name": "记忆系统设计",
+          "slug": "memory-systems",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": ["短期记忆/上下文窗口", "长期记忆/向量存储", "工作记忆", "记忆检索与遗忘机制"]
+        }
+      ]
+    },
+    {
+      "name": "推理与规划",
+      "slug": "reasoning-planning",
+      "concepts": [
+        {
+          "name": "思维链推理",
+          "slug": "chain-of-thought",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": ["Zero-shot CoT", "Few-shot CoT", "自一致性采样", "逐步验证"]
+        },
+        {
+          "name": "思维树与图推理",
+          "slug": "tree-of-thoughts",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": ["BFS/DFS搜索", "分支评估", "剪枝策略", "Graph-of-Thoughts"]
+        },
+        {
+          "name": "规划算法",
+          "slug": "planning-algorithms",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": ["任务分解", "层次规划", "PDDL", "动态重规划"]
+        },
+        {
+          "name": "自我反思与修正",
+          "slug": "self-reflection",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": ["Reflexion框架", "自我批评机制", "迭代改进", "验证与纠错"]
+        },
+        {
+          "name": "多步推理优化",
+          "slug": "multi-step-reasoning",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": ["中间步骤监督", "过程奖励模型(PRM)", "结果奖励模型(ORM)", "搜索预算分配"]
+        }
+      ]
+    },
+    {
+      "name": "多 Agent 系统",
+      "slug": "multi-agent-systems",
+      "concepts": [
+        {
+          "name": "Agent 通信协议",
+          "slug": "agent-communication",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": ["消息传递", "共享内存", "发布订阅", "ACL/KQML协议"]
+        },
+        {
+          "name": "协作与竞争机制",
+          "slug": "cooperation-competition",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": ["合作博弈", "零和博弈", "混合动机", "纳什均衡"]
+        },
+        {
+          "name": "角色分配与任务分解",
+          "slug": "role-task-decomposition",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": ["专业化分工", "动态角色指派", "依赖图分析", "并行执行调度"]
+        },
+        {
+          "name": "多 Agent 辩论与共识",
+          "slug": "debate-consensus",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": ["多轮辩论", "一致性投票", "少数派意见聚合", "对抗性验证"]
+        },
+        {
+          "name": "群体智能",
+          "slug": "swarm-intelligence",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": ["涌现行为", "蚁群/粒子群优化", "分布式感知", "自组织"]
+        }
+      ]
+    },
+    {
+      "name": "工具与代码执行",
+      "slug": "tools-code-execution",
+      "concepts": [
+        {
+          "name": "Function Calling 机制",
+          "slug": "function-calling",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": ["OpenAI/Anthropic格式", "并行调用", "强制调用", "流式工具调用"]
+        },
+        {
+          "name": "代码沙箱执行",
+          "slug": "sandbox-execution",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": ["Docker沙箱", "WebAssembly", "安全隔离", "资源限制"]
+        },
+        {
+          "name": "RAG 与检索增强",
+          "slug": "rag-retrieval",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": ["向量数据库", "Embedding模型", "混合检索", "上下文窗口管理"]
+        },
+        {
+          "name": "动态工具学习",
+          "slug": "dynamic-tool-learning",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": ["工具自动发现", "API文档理解", "工具组合合成", "在线工具适应"]
+        }
+      ]
+    },
+    {
+      "name": "评估与安全",
+      "slug": "evaluation-safety",
+      "concepts": [
+        {
+          "name": "Agent 评估基准",
+          "slug": "agent-benchmarks",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": ["SWE-bench", "GAIA", "WebArena", "AgentBench", "OSWorld"]
+        },
+        {
+          "name": "安全对齐",
+          "slug": "safety-alignment",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": ["RLHF", "Constitutional AI", "红队测试", "越狱防御"]
+        },
+        {
+          "name": "奖励模型设计",
+          "slug": "reward-modeling",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": ["偏好标注", "Bradley-Terry模型", "DPO", "奖励攻击"]
+        },
+        {
+          "name": "鲁棒性与可靠性",
+          "slug": "robustness-reliability",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": ["对抗鲁棒性", "分布外泛化", "幻觉检测", "故障恢复"]
+        }
+      ]
+    },
+    {
+      "name": "前沿研究方向",
+      "slug": "frontier-research",
+      "concepts": [
+        {
+          "name": "自主 Agent 架构",
+          "slug": "autonomous-agents",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": ["AutoGPT", "BabyAGI", "MetaGPT", "CrewAI"]
+        },
+        {
+          "name": "世界模型",
+          "slug": "world-models",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": ["环境动态建模", "反事实推理", "Dreamer系列", "Sora/视频世界模型"]
+        },
+        {
+          "name": "Computer Use 与 GUI Agent",
+          "slug": "computer-use",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": ["桌面自动化", "屏幕理解", "操作定位", "跨应用编排"]
+        },
+        {
+          "name": "长期自主与持续学习",
+          "slug": "long-term-autonomy",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": ["终身学习", "灾难性遗忘", "经验回放", "课程学习"]
+        },
+        {
+          "name": "具身智能",
+          "slug": "embodied-intelligence",
+          "status": "unexplored",
+          "confidence": 0,
+          "practice_count": 0,
+          "explain_count": 0,
+          "last_explained": null,
+          "last_practiced": null,
+          "details": ["感知-行动耦合", "仿真到现实迁移", "操作与导航", "人机交互"]
+        }
+      ]
+    }
+  ]
+}
